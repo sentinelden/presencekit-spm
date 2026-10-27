@@ -37,7 +37,7 @@ In a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sentinelden/presencekit-spm", from: "2.4.0"),
+    .package(url: "https://github.com/sentinelden/presencekit-spm", from: "3.0.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [
