@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "PresenceKitSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "PresenceKitSDK", targets: ["PresenceKitSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "PresenceKitSDK",   // 4.0.0
-            url: "https://api.sentinelden.com/spm/presencekit_sdk/4.0.0/PresenceKitSDK.xcframework.zip",
-            checksum: "55533c7e4e839221f9c14f714d9528172d572b8b9a6f9acace47e9b099d6cbfb"
+            name: "PresenceKitSDK",   // 5.0.0
+            url: "https://api.sentinelden.com/spm/presencekit_sdk/5.0.0/PresenceKitSDK.xcframework.zip",
+            checksum: "192565c7d1e92846f5b21985b98165397ef12b70612dcf4cb7dae640513b11f3"
         ),
     ]
 )
