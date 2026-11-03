@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "PresenceKitSDK",   // 5.0.0
-            url: "https://api.sentinelden.com/spm/presencekit_sdk/5.0.0/PresenceKitSDK.xcframework.zip",
-            checksum: "192565c7d1e92846f5b21985b98165397ef12b70612dcf4cb7dae640513b11f3"
+            name: "PresenceKitSDK",   // 6.0.0
+            url: "https://api.sentinelden.com/spm/presencekit_sdk/6.0.0/PresenceKitSDK.xcframework.zip",
+            checksum: "248f5d03aed12b71641bb62e52c086f1cd6e008da7f3b6c64095e901ea429295"
         ),
     ]
 )
